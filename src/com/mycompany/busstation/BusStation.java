@@ -55,6 +55,6 @@ public class BusStation {
             peopleOfGroups[i] = Integer.parseInt(sc.next());
         }
 
-        System.out.println("Ouput: "+ findSizeOfBus(peopleOfGroups).toString());
+        System.out.println("Size of bus: "+ findSizeOfBus(peopleOfGroups).toString());
     }
 }
